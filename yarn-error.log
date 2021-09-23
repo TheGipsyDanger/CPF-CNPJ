@@ -1,0 +1,37 @@
+Arguments: 
+  /Users/king/.nvm/versions/node/v12.13.1/bin/node /usr/local/Cellar/yarn/1.22.11/libexec/bin/yarn.js lib/index.ts
+
+PATH: 
+  /Users/king/.rvm/gems/ruby-2.5.8/bin:/Users/king/.rvm/gems/ruby-2.5.8@global/bin:/Users/king/.rvm/rubies/ruby-2.5.8/bin:/Users/king/Documents/flutter/bin:/Users/king/development/flutter/bin:/Users/king/.nvm/versions/node/v12.13.1/bin:/Users/king/.nvm/versions/node/v12.13.1/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/king/.rvm/gems/ruby-2.5.8/bin:/Users/king/.rvm/gems/ruby-2.5.8@global/bin:/Users/king/.rvm/rubies/ruby-2.5.8/bin:/Users/king/Documents/flutter/bin:/Users/king/development/flutter/bin:/Users/king/.sdkman/candidates/java/current/bin:/Users/king/.sdkman/candidates/groovy/current/bin:/Users/king/.sdkman/candidates/grails/current/bin:/Users/king/.nvm/versions/node/v12.13.1/bin:/opt/local/bin:/opt/local/sbin:/Users/king/Library/Android/sdk/tools:/Users/king/Library/Android/sdk/platform-tools:/Users/king/.rvm/bin:/Users/king/Library/Android/sdk/tools:/Users/king/Library/Android/sdk/platform-tools:/Users/king/.rvm/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  12.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/king/Documents/Projects/Vindicce/CPF-CNPJ/package.json: Unexpected token } in JSON at position 165
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "vindicce-validator",
+    "version": "0.0.1",
+    "main": "lib/index.ts",
+    "license": "MIT",
+    "author": "Renan Henrique <renan.henrique.fonte@gmail.com>",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
