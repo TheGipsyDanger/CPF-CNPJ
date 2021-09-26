@@ -29,15 +29,17 @@ const { cpf, cnpj } = require("vindicce-validator");
 import { cpf, cnpj } from "vindicce-validator";
 
 // Validate CPF
-console.log(cpf.isvalid("815.780.140-00"));   // valid
-console.log(cpf.isvalid("815.780.140-000"));  // invalid
-console.log(cpf.isvalid("815.780.140-0"));    // invalid
-console.log(cpf.isvalid("000.000.000-00"));   // invalid
+cpf.isvalid("815.780.140-00");  // valid
+cpf.isvalid("81578014000");     // valid
+cpf.isvalid("815.780.140-000"); // invalid
+cpf.isvalid("815.780.140-0");   // invalid
+cpf.isvalid("000.000.000-00");  // invalid
 
 // Validate CNPJ
-console.log(cnpj.isvalid("23.372.648/0001-94"));  // valid
-console.log(cnpj.isvalid("23.372.648/0001-940")); // invalid
-console.log(cnpj.isvalid("23.372.648/0001-9"));   // invalid
-console.log(cnpj.isvalid("00.000.000/0000-00"));  // invalid
+cnpj.isvalid("23.372.648/0001-94");  // valid
+cnpj.isvalid("23372648000194");      // valid
+cnpj.isvalid("23.372.648/0001-940"); // invalid
+cnpj.isvalid("23.372.648/0001-9");   // invalid
+cnpj.isvalid("00.000.000/0000-00");  // invalid
 
 ```
