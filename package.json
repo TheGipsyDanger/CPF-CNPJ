@@ -1,6 +1,6 @@
 {
   "name": "vindicce-validator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/index.js",
   "license": "MIT",
   "author": "Renan Henrique <renan.henrique.fonte@gmail.com>"
